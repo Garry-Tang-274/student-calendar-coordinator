@@ -34,6 +34,11 @@ Existing normalized events / 已有规范项 ┘                 │
                                                           └─> User confirmation / 人工确认
 ```
 
+See the bilingual Mermaid diagrams for the complete data flow and decision logic.  
+完整数据流与决策逻辑见中英双语 Mermaid 流程图。
+
+- [Workflow diagrams / 工作流图](docs/flowchart.md)
+
 ## Main capabilities / 主要能力
 
 - Multi-source deduplication based on course codes, names, links, time, context and update relationships.  
@@ -63,6 +68,7 @@ Existing normalized events / 已有规范项 ┘                 │
 ## Repository contents / 仓库内容
 
 - [Architecture and coordination rules / 架构与协调规则](docs/architecture.md)
+- [Workflow diagrams / 工作流图](docs/flowchart.md)
 - [Design decisions / 设计决策](docs/design.md)
 - [Setup guide / 配置教程](docs/setup.md)
 - [Pitfalls and lessons learned / 踩坑记录](docs/pitfalls.md)
