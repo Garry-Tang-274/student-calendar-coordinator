@@ -1,0 +1,34 @@
+# Private local configuration / 私人本地配置
+.env
+.env.*
+secrets/
+private/
+credentials/
+
+# Calendar and email exports may contain personal data / 日历与邮件导出文件可能包含个人数据
+*.ics
+*.ical
+*.eml
+*.msg
+*.mbox
+
+# Screenshots and local captures require manual review before publication / 截图与本地抓取内容发布前必须人工审查
+private-screenshots/
+local-captures/
+
+# Operating-system files / 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings / 编辑器设置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary and backup files / 临时文件与备份文件
+*.tmp
+*.temp
+*.bak
+*~
