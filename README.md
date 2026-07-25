@@ -72,6 +72,7 @@ See the bilingual Mermaid diagrams for the complete data flow and decision logic
 - [Design decisions / 设计决策](docs/design.md)
 - [Setup guide / 配置教程](docs/setup.md)
 - [Pitfalls and lessons learned / 踩坑记录](docs/pitfalls.md)
+- [Operational validation / 生产运行验收](docs/operational-validation.md)
 - [Reusable coordinator prompt / 可复用协调提示词](prompts/calendar-coordinator-template.md)
 - [Anonymized validation scenarios / 匿名验收场景](examples/scenarios.md)
 - [Security guidance / 安全说明](SECURITY.md)
@@ -83,6 +84,10 @@ See the bilingual Mermaid diagrams for the complete data flow and decision logic
 This repository documents a workflow design and prompt specification, not a self-hosted software package. Actual capabilities depend on the automation platform, connected-service permissions, institutional policies and calendar-feed delay.
 
 本仓库记录的是工作流设计与提示词规范，不是可独立部署的软件包。实际能力取决于自动化平台、连接器权限、学校策略以及日历订阅延迟。
+
+A reported write action is not treated as successful until it can be read back from the target calendar, task inbox or outbound-mail evidence.
+
+只有能够从目标日历、任务收集箱或外发邮件证据中重新确认，声称完成的写入动作才被视为成功。
 
 ## Privacy / 隐私
 
