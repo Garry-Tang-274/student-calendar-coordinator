@@ -73,6 +73,17 @@ See [`docs/flowchart.md`](docs/flowchart.md) for the complete data flow and deci
 - 默认 `Calendar`：与学校自动化分离，不作为自动写入目标。
 - Default `Calendar`: kept separate and not used as the school-automation target.
 
+## 当前运行规则
+## Current Operating Profile
+
+当前实际使用时，只允许把新事项写入 `日程` 或 `截止日期`：需要占用一个明确时间段、要求到场或参加的事项进入 `日程`；必须在某个日期或时刻前完成的事项进入 `截止日期`。默认 Calendar 和 Blackboard 都不得作为写入目标。
+
+In the current operating profile, new items may be written only to `Schedule` or `Deadlines`: items that occupy a definite time block or require attendance go to `Schedule`, while items that must be completed by a date or time go to `Deadlines`. The default Calendar and Blackboard are never write targets.
+
+当用户直接提供一个事件、时间、地点等完整信息时，不需要为了“确认日历类别”再次询问；由协调器依据事项性质选择 `日程` 或 `截止日期`。只有事项本身的时间、对象或含义仍然有实质歧义时才需要确认。
+
+When the user directly supplies an event with sufficient time and location details, the coordinator should choose `Schedule` or `Deadlines` from the item type rather than asking the user to select a calendar. Confirmation is required only when the event itself remains materially ambiguous.
+
 ## 最近补充：生产运行验收
 ## Recent Addition: Operational Validation
 
