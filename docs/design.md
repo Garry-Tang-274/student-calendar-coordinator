@@ -43,7 +43,7 @@ The separation allows different defaults:
 这种分离允许使用不同默认设置：
 
 | Property / 属性 | Schedule / 日程 | Deadlines / 截止日期 |
-|---|---|---|
+| --- | --- | --- |
 | Calendar status / 日历状态 | Busy / 忙碌 | Free / 空闲 |
 | Typical reminder / 典型提醒 | 15 minutes / 提前15分钟 | 1 day / 提前1天 |
 | Main meaning / 主要含义 | Attend at this time / 此时必须出席 | Complete by this time / 在此之前完成 |

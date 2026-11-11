@@ -13,7 +13,7 @@ Its main objective is to keep the final calendar complete, non-duplicated, edita
 ## 2. Source layer / 信息源层
 
 | Source / 来源 | Typical strengths / 典型优势 | Typical limitations / 典型限制 |
-|---|---|---|
+| --- | --- | --- |
 | School email / 学校邮件 | Explicit corrections, cancellations, rooms, detailed requirements and temporary changes / 明确更正、取消、教室、详细要求和临时变化 | Inconsistent wording; may be forwarded, delayed or placed in spam / 格式不统一，可能经转发、延迟或进入垃圾邮件 |
 | Blackboard calendar feed / Blackboard 日历订阅 | Formally configured deadlines, tests, assignment names and some submission items / 正式设置的 DDL、测试、作业名称和部分提交项 | Read-only, may refresh slowly, and does not contain every announcement / 只读、可能刷新较慢，并非所有通知都会进入日历 |
 | Formal timetable / 正式课表 | Reliable regular weekly baseline for classes / 可靠的常规每周课程基线 | Cannot represent every temporary exception / 无法表达所有临时例外 |
@@ -142,7 +142,7 @@ Authority is field-specific and context-sensitive. It is not a permanent global 
 ## 8. Change chains / 变更链
 
 | Observed chain / 观察到的变更链 | Expected action / 预期操作 |
-|---|---|
+| --- | --- |
 | Create → postpone, first seen in the same run / 首次运行同时看到新增→延期 | Create only the final version / 只创建最终版本 |
 | Create → cancel, first seen in the same run / 首次运行同时看到新增→取消 | Create nothing / 不创建任何条目 |
 | Previously created → postpone / 已经创建后发生延期 | Update the normalized Outlook item and send a task-change reminder / 更新 Outlook 规范条目，并发送任务变更提醒 |

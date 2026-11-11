@@ -36,7 +36,7 @@ Recommended roles:
 推荐用途：
 
 | Calendar / 日历 | Purpose / 用途 | Default display / 默认显示状态 |
-|---|---|---|
+| --- | --- | --- |
 | Schedule / 日程 | Compulsory time-block events / 必须出席的时间段事件 | Busy / 忙碌 |
 | Deadlines / 截止日期 | Hard completion or submission deadlines / 硬性完成或提交 DDL | Free / 空闲 |
 | Blackboard | Read-only source and cross-checking layer / 只读信息源与核对层 | Optional on widget / 小组件中可隐藏 |

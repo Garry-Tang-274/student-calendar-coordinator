@@ -95,6 +95,13 @@ When the user directly supplies an event with sufficient time and location detai
 
 Calendar writes must be read back from the exact destination calendar; sent mail should have Sent-folder, provider, or recipient-side evidence; task creation should be confirmed in the destination task inbox.
 
+## 课表与资料交接
+## Timetable and Material Handoff
+
+新增[按课次交接的使用说明](docs/study-material-handoff.md)，将三自然日预习、资料下载、批次送达和归档完成分开记录。它与日历去重规则配合，不把每次文件更新都变成新日程。
+
+The [class-based handoff guide](docs/study-material-handoff.md) separates preparation windows, downloads, delivery and archive completion. It complements calendar deduplication rather than turning every file update into another event.
+
 ## 仓库内容
 ## Repository Contents
 
